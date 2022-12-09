@@ -4,9 +4,6 @@
 ![wel](https://user-images.githubusercontent.com/110362553/206735458-70dc5cdc-8266-4c84-8986-86d82e5bf160.png)
 ![ddddpp](https://user-images.githubusercontent.com/110362553/206735452-1325c8e7-bd42-4461-b1e6-ad7ec477123d.png)
 
-# Demo in video :
-
-
 ## Made with @TheMaxQuent and @Selim
 
 ## Techno :
