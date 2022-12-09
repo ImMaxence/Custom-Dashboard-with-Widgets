@@ -1,0 +1,94 @@
+.container_sgg {
+    background-color: #AF7AC5;
+    width: 33%;
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+
+}
+
+.container_sgg_2 {
+    background-color: #AF7AC5;
+    width: 33%;
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+
+    height: 30vh;
+    overflow: scroll;
+}
+
+.container_sgg_2::-webkit-scrollbar {
+    display: none;
+}
+
+.container_sgg input {
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    background-color: #d5d5d5;
+    padding-left: 5%;
+    font-size: 2vw;
+    font-family: $font-2;
+    color: black;
+
+}
+
+.container_sgg button {
+    font-size: 2vw;
+    font-family: $font-2;
+    padding: 1%;
+    transition: 0.5s;
+
+}
+
+.container_sgg button:hover {
+    opacity: 0.5;
+}
+
+.flex_sgg {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.title_sgg {
+    //background-color: red;
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+    font-size: 2vw;
+    font-family: $font-2;
+}
+
+.each_sgg {
+    background-color: #9B59B6;
+    padding: 1%;
+    border-radius: 8px;
+    margin: 5%;
+
+    display: flex;
+}
+
+.img_img {
+    //background-color: green;
+    margin-top: 1.2%;
+    width: 15%;
+}
+
+#img_sgg {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.text_sgg {
+    // background-color: violet;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    font-family: $font-2;
+    color: black;
+    margin-top: 2.5%;
+}

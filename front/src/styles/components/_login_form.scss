@@ -1,0 +1,189 @@
+.over_container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/login0.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1500px) {
+    .over_container {
+        background-color: $color-5;
+    }
+}
+
+.text_login {
+    position: relative;
+    z-index: 2;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.text_login h1 {
+    font-family: $font-1;
+    font-size: 5vw;
+    color: $color-1;
+    letter-spacing: 0.5vw;
+    line-height: 5vw;
+}
+
+.text_login p {
+    font-family: $font-2;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: $color-1;
+}
+
+.form_login {
+    position: relative;
+    width: 50%;
+    height: 28vw;
+    background-color: $color-1;
+    border-radius: 8px;
+    z-index: 3;
+    transition: 1.3s;
+}
+
+.form_login:hover {
+    transform-origin: left;
+    transform: scale(1.5);
+}
+
+.form_login h3,
+p,
+input,
+button {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: $font-3;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.form_login input,
+button {
+    border-radius: 8px;
+    border: none;
+}
+
+#username {
+    background-color: $color-3;
+}
+
+#password {
+    background-color: $color-4;
+}
+
+.flex_button_login {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 7%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.form_login button {
+    color: $color-1;
+    font-size: 1.3vw;
+    padding: 1%;
+    transition: 0.2s;
+}
+
+.form_login button:active {
+    opacity: 0.5;
+}
+
+.form_login button:hover {
+    cursor: pointer;
+    transform: scale(1.20);
+}
+
+.form_login h3 {
+    font-size: 3.5vw;
+    padding-left: 35%;
+}
+
+.form_login p {
+    font-size: 2vw;
+    padding-bottom: 2%;
+    padding-top: 4%;
+    margin-left: 4%;
+}
+
+.form_login input {
+    height: 9%;
+    margin-left: 4%;
+    width: 88%;
+    padding-left: 4%;
+    font-size: 1vw;
+    transition: all 0.5s;
+}
+
+#username:hover {
+    outline-color: $color-4;
+}
+
+#password:hover {
+    outline-color: $color-3;
+}
+
+#text_user {
+    text-decoration: underline 0.4vw $color-4;
+}
+
+#text_pass {
+    text-decoration: underline 0.4vw $color-3;
+}
+
+.flex_login {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    padding-top: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    z-index: 2;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper input {
+    background-color: $color-4;
+}
+
+.btn {
+    margin-left: -10%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 10%;
+}
+
+.password_field {
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+}
+
+#sub,
+#reg {
+    background-color: $color-2 ;
+}
+
+#reg {
+    margin-left: 5%;
+}
+
+.error_mssg {
+    color: $color-6;
+    border-radius: 8px;
+    margin-left: 5%;
+    padding-top: 1.5%;
+    font-size: 1vw;
+    font-family: $font-2;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.container_sgp {
+    background-color: #AF7AC5;
+    width: 33%;
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+    font-size: 2vw;
+    font-family: $font-2;
+    color: black;
+}
+
+.big_c_gp {
+    background-color: #9B59B6;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.big_c_gp img {
+    width: 40%;
+    border-radius: 8px;
+}
+
+.reste_sgp {
+
+    width: 50%;
+    padding-top: 3%;
+
+}

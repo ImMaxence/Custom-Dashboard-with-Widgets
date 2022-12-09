@@ -1,0 +1,77 @@
+.discord_wid {
+    background-color: $color-8;
+    width: 33%;
+    border-radius: 8px;
+    padding: 1%;
+    font-family: $font-2;
+    text-align: center;
+    margin: 1%;
+}
+
+.discord_wid_2 {
+    background-color: $color-8;
+    width: 33%;
+    border-radius: 8px;
+    padding: 1%;
+    font-family: $font-2;
+    text-align: center;
+    margin: 1%;
+}
+
+#see_discord {
+    font-size: 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: $color-1;
+    transition: 0.5s;
+}
+
+#see_discord:hover {
+    opacity: 0.5;
+}
+
+.prof_dis {
+    display: flex;
+
+}
+
+#img_dis {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.img_div_dis {
+
+    width: 30%;
+    height: 100%;
+}
+
+#butt_dis {
+    background-color: transparent;
+    font-size: 1.5vw;
+    font-family: $font-2;
+    color: $color-1;
+    transition: 0.5s;
+    margin-top: 2%;
+}
+
+#butt_dis:hover {
+    opacity: 0.5;
+
+}
+
+.flex_user_dis {
+
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    font-family: $font-2;
+    font-size: 1.5vw;
+    color: $color-1;
+    margin-top: 3.5%;
+}
+
+.flex_user_dis a {
+    font-size: 2vw;
+    text-decoration: underline 1px solid white;
+}

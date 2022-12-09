@@ -1,0 +1,253 @@
+.home_page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: $color-1;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left_nav {
+    height: 100vh;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 5%;
+    background-color: $color-5;
+    position: relative;
+    overflow-y: scroll;
+
+}
+
+.logo_home {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 6vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    background-color: $color-5;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-bottom: solid 0.3vw $color-3;
+}
+
+.logo_home img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.logo_home h1 {
+    font-size: 2vw;
+    font-family: $font-3;
+    color: $color-1;
+}
+
+#title_home {
+    margin-top: 3%;
+    padding-left: 5%;
+}
+
+.widget_service {
+    width: 100%;
+    height: 80vh;
+    overflow-y: scroll;
+    color: $color-1;
+    font-family: $font-2;
+
+
+}
+
+.right_drop {
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.text_here {
+    width: 95%;
+    height: 95vh;
+    margin-left: 3.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hidden_nav {
+    background-color: transparent;
+    font-family: $font-3;
+    font-size: 2.5vw;
+    color: $color-1;
+
+    padding-left: 10%;
+    padding-top: 10%;
+
+
+
+}
+
+.final {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    transform: translate(-93%);
+    transition: all 1s ease-in-out;
+    z-index: 2;
+
+}
+
+.div_hidden_nav {
+    width: 2.5vw;
+    height: 100vh;
+    background-color: $color-5;
+    border-right: 0.3vw solid $color-3;
+
+    position: relative;
+    z-index: 2;
+    border-top-right-radius: 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: #2d2f31;
+}
+
+
+nav {
+    width: 100%;
+
+    margin: 5% auto;
+}
+
+.widget_service span {
+    padding: 5%;
+    background: #2d2f31;
+
+    color: $color-1;
+    font-size: 1.8vw;
+    font-family: $font-3;
+    font-variant: small-caps;
+    cursor: pointer;
+    display: block;
+
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+
+.widget_service span::after {
+    float: right;
+    right: 10%;
+    content: "+";
+
+}
+
+.slide {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+
+    background: #d9d9d9;
+
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: $font-2;
+    font-weight: bold;
+    font-size: 1.4vw;
+    position: relative;
+
+}
+
+.slide li {
+    padding: 10%;
+}
+
+#touch {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+}
+
+#touch:checked+.slide {
+    height: 15vw;
+
+}
+
+#touch1 {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+}
+
+#touch1:checked+.slide {
+    height: 8vw;
+}
+
+#touch2 {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+}
+
+#touch2:checked+.slide {
+    height: 8vw;
+}
+
+#touch3 {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+}
+
+#touch3:checked+.slide {
+    height: 29vw;
+}
+
+#touch4 {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+}
+
+#touch4:checked+.slide {
+    height: 8vw;
+}
+
+
+.widget_service::-webkit-scrollbar {
+    display: none;
+}
+
+.left_nav::-webkit-scrollbar {
+    display: none;
+}
+
+.right_drop::-webkit-scrollbar {
+    display: none;
+}
+
+#container_button_nav_hidden {
+
+    width: 100%;
+    height: 5.15vw;
+
+    transition: 0.5s;
+
+    padding-top: 50%;
+    transform-origin: center;
+
+}

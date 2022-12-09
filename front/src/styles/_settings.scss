@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-2";
+    src: url(../assets/fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-3";
+    src: url(../assets/fonts/ArchivoBlack-Regular.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", sans-serif;
+$font-3: "font-3", sans-serif;
+
+$color-1: white;
+$color-2: black;
+$color-3: #E67E22;
+$color-4: #76D7C4;
+$color-5: #212121;
+$color-6: #E74C3C;
+$color-7: #F7DC6F;
+$color-8: #747AC8;
+
+* {
+    margin: 0;
+    padding: 0;
+}

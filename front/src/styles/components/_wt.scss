@@ -1,0 +1,87 @@
+.wid_today {
+    background-color: #d4d4d4;
+    width: 33%;
+    border-radius: 8px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.img_w {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.img_w img {
+    width: 20%;
+}
+
+.img_w label {
+    margin-top: 6%;
+    font-size: 2vw;
+    color: $color-2;
+    font-family: $font-2;
+}
+
+.today_inf {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    font-family: $font-2;
+    color: $color-2;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#date_t {
+    padding: 1%;
+    border-radius: 8px;
+    background-color: #a9a9a9;
+}
+
+#tmax_t {
+    padding: 1%;
+    border-radius: 8px;
+    background-color: #EC7063;
+}
+
+#tmin_t {
+    background-color: #5DADE2;
+    padding: 1%;
+    border-radius: 8px;
+}
+
+.cherche_wt {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cherche_wt input {
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    background-color: #a9a9a9;
+    color: $color-2;
+    font-size: 2vw;
+    font-family: $font-2;
+    padding-left: 8%;
+}
+
+.cherche_wt img {
+    width: 10%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.cherche_wt img:hover {
+    opacity: 0.5;
+}

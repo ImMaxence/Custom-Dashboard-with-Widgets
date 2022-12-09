@@ -1,0 +1,53 @@
+.container_slga {
+    background-color: #AF7AC5;
+    width: 33%;
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+
+    overflow: scroll;
+}
+
+.container_slga::-webkit-scrollbar {
+    display: none;
+}
+
+.container_slga label {
+    font-size: 2vw;
+    font-family: $font-2;
+    color: black;
+}
+
+.flex_head {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.flex_head img {
+    border-radius: 8px;
+    width: 15%;
+}
+
+.big_slga {
+    background-color: #9B59B6;
+    border-radius: 8px;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+
+#title_head {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline 3px solid black;
+}
+
+.reste_div_slga {
+
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+.container_reddit {
+    padding: 1%;
+    margin: 1%;
+    background-color: #F5B041;
+    color: $color-1;
+    font-family: $font-2;
+    font-size: 2vw;
+    border-radius: 8px;
+    width: 66%;
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+.container_reddit_0 {
+    padding: 1%;
+    margin: 1%;
+    background-color: #F5B041;
+    color: $color-1;
+    font-family: $font-2;
+    font-size: 2vw;
+    border-radius: 8px;
+    width: 66%;
+
+}
+
+.container_reddit::-webkit-scrollbar {
+    display: none;
+}
+
+.red_red {
+    margin-top: 2%;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.red_red button {
+    background-color: #a9a9a9;
+    color: $color-1;
+    font-size: 2vw;
+    font-family: $font-2;
+    padding: 1%;
+    transition: 0.5s;
+}
+
+.red_red input {
+    background-color: #a9a9a9;
+    border-radius: 8px;
+    border: none;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2vw;
+    color: $color-1;
+    font-family: $font-2;
+}
+
+.red_red button:hover {
+    opacity: 0.5;
+}
+
+.link_reddit {
+
+    overflow: hidden;
+}
+
+.thread_r {
+    background-color: #d5d5d5;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 8px;
+    color: black;
+    font-size: 2vw;
+    font-family: $font-2;
+}

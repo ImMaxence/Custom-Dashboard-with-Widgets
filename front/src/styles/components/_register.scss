@@ -1,0 +1,178 @@
+.over_register {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register_background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/register0.jpg);
+    filter: blur(30px);
+    background-size: cover;
+    transform: scale(1.1);
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: animatedBackground 90s linear infinite alternate;
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100vw 0;
+    }
+}
+
+.form_register {
+    position: relative;
+    width: 50%;
+    height: 65vw;
+    background-color: $color-1;
+    z-index: 2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 25%;
+    margin-bottom: 20%;
+    margin-top: 2%;
+    transition: 2s;
+}
+
+.form_register:hover {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 3500px) {
+    .form_register {
+        height: 35vw;
+    }
+}
+
+#text_register {
+    position: relative;
+    z-index: 2;
+    font-family: $font-2;
+    color: $color-1;
+    letter-spacing: 0.5vw;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 3vw;
+}
+
+.but_register {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 5%;
+}
+
+.form_register input {
+    border-radius: 8px;
+    border: none;
+}
+
+.form_register p {
+    font-family: $font-2;
+    margin-left: 5%;
+    text-decoration: underline 0.2vw solid $color-3;
+    text-underline-offset: 0.5vw;
+    font-size: 2vw;
+}
+
+#user_pad {
+    padding-top: 5%;
+}
+
+#new_user,
+#new_pass,
+#new_email {
+    background-color: $color-7;
+    width: 85%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    color: $color-2;
+    transition: 1s;
+    padding-left: 5%;
+    font-size: 1.5vw;
+    font-family: $font-2;
+}
+
+#new_user:hover,
+#new_pass:hover,
+#new_email:hover {
+    background-color: $color-3;
+}
+
+#register_but {
+    margin-left: 5%;
+    margin-right: 3%;
+    background-color: $color-8;
+}
+
+#register_log {
+    margin-right: 5%;
+    background-color: $color-4;
+    padding: 1%;
+}
+
+#register_but,
+#register_log {
+    font-size: 1.5vw;
+    transition: 0.5s;
+    color: $color-1;
+    font-family: $font-2;
+    font-weight: bold;
+}
+
+#register_but:hover,
+#register_log:hover {
+    background-color: $color-3;
+}
+
+.form_register button:active {
+    opacity: 0.3;
+}
+
+.form_register button:hover {
+    cursor: pointer;
+    transform: scale(1.20);
+}
+
+.bg {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1.5vw;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg,
+            $color-4 0%,
+            $color-3 25%,
+            $color-8 51%,
+            $color-7 100%);
+    animation: AnimateBG 10s ease infinite;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
