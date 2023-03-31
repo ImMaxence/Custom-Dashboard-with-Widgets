@@ -1,3 +1,10 @@
+## Start :
+cd back > mvn dependency:copy-dependencies  
+        > mvn spring-boot:run
+
+cd front > npm install  
+         > npm start
+
 ## Preview :
 ![mainnn](https://user-images.githubusercontent.com/110362553/206735475-76f8b16d-313e-40bd-9c90-52857a238150.png)
 ![regis](https://user-images.githubusercontent.com/110362553/206735465-1fb4521c-5358-4157-adb5-5f0f8f4df587.png)
